@@ -14,7 +14,7 @@ use Cake\Event\Event;
  */
 class UsersController extends AppController
 {
-    public function initialize():
+    public function initialize()
     {
         parent::initialize();
         $this->loadComponent('RequestHandler');
